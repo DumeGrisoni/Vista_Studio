@@ -5,7 +5,7 @@ import gsap from 'gsap';
 //-------------- Import Interne ----------------
 import { words } from '../constants/index.js';
 import Button from '../components/Button.jsx';
-import HeroExperience from '../components/HeroModels/HeroExperience.jsx';
+import HeroExperience from '../components/Models/HeroModels/HeroExperience.jsx';
 import AnimatedCounter from '../components/AnimatedCounter.jsx';
 
 gsap.registerPlugin(useGSAP);

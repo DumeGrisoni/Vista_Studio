@@ -19,6 +19,10 @@ section {
   width: 100dvw;
 }
 
+:target {
+  scroll-margin-top: 100px;
+}
+
 @theme {
   --font-sans: 'Mona Sans', sans-serif;
   --color-white-50: #d9ecff;
@@ -110,7 +114,7 @@ section {
     }
 
     &.not-scrolled {
-      @apply md:top-10 top-0 bg-transparent;
+      @apply top-0 bg-transparent;
     }
 
     .inner {
@@ -251,7 +255,7 @@ section {
   }
 
   .exp-card-wrapper {
-    @apply flex flex-col-reverse xl:flex-row xl:gap-20 gap-10 justify-between;
+    @apply flex flex-col xl:flex-row xl:gap-20 gap-10 justify-between;
   }
 
   .gradient-edge {
@@ -375,13 +379,12 @@ section {
     #6d45ce 92.91%
   );
 }
-
-.gradient-edge:nth-of-type(1) {
+#05070a .gradient-edge:nth-of-type(1) {
   left: 0;
-  background: rgb(0, 0, 0);
+  background: rgb(5, 7, 10);
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1) 0%,
+    rgba(5, 7, 10, 1) 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -389,7 +392,7 @@ section {
   right: 0;
   background: linear-gradient(
     -90deg,
-    rgba(0, 0, 0, 1) 0%,
+    rgba(5, 7, 10, 1) 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -407,7 +410,7 @@ section {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  animation: marquee 60s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 .marquee-item {
   float: left;
