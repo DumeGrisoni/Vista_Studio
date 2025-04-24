@@ -3,11 +3,13 @@ import React from 'react';
 //-------------- Import Interne ----------------
 
 import Hero from './sections/Hero';
+import Showcase from './sections/Showcase';
 
 const App = () => {
   return (
     <>
       <Hero />
+      <Showcase />
     </>
   );
 };

@@ -18,14 +18,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: 'une Idée', imgPath: '/images/ideas.svg' },
-  { text: 'un Concept', imgPath: '/images/concepts.svg' },
-  { text: 'un Design', imgPath: '/images/designs.svg' },
-  { text: 'un Code', imgPath: '/images/code.svg' },
-  { text: 'une Idée', imgPath: '/images/ideas.svg' },
-  { text: 'un Concept', imgPath: '/images/concepts.svg' },
-  { text: 'un Design', imgPath: '/images/designs.svg' },
-  { text: 'un Code', imgPath: '/images/code.svg' },
+  { text: 'une Idée', imgPath: './images/ideas.svg' },
+  { text: 'un Concept', imgPath: './images/concepts.svg' },
+  { text: 'un Design', imgPath: './images/designs.svg' },
+  { text: 'un Code', imgPath: './images/code.svg' },
+  { text: 'une Idée', imgPath: './images/ideas.svg' },
+  { text: 'un Concept', imgPath: './images/concepts.svg' },
+  { text: 'un Design', imgPath: './images/designs.svg' },
+  { text: 'un Code', imgPath: './images/code.svg' },
 ];
 
 const counterItems = [
