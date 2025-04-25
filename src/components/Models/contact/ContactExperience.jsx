@@ -1,7 +1,7 @@
 import { Environment, OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
-import { Macbook } from './MacbookProMO';
+import { Macbook } from './MacbookProAN';
 
 const ContactExperience = () => {
   return (
@@ -18,24 +18,7 @@ const ContactExperience = () => {
       />
       <Environment files="./images/hdr/lobby.hdr" />
 
-      <OrbitControls
-        enableZoom={false}
-        minPolarAngle={Math.PI / 5}
-        maxPolarAngle={Math.PI / 2}
-      />
-
-      <group scale={[1, 1, 1]}>
-        <mesh
-          receiveShadow
-          position={[0, -1.5, 0]}
-          rotation={[-Math.PI / 2, 0, 0]}
-        >
-          <planeGeometry args={[30, 30]} />
-          <meshStandardMaterial color="gray" />
-        </mesh>
-      </group>
-
-      <group scale={0.03} position={[0, -1.49, -2]} castShadow>
+      <group scale={0.02} position={[0, 0, 0]} castShadow>
         <Macbook />
       </group>
     </Canvas>

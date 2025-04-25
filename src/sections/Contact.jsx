@@ -1,3 +1,4 @@
+'use client';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -6,6 +7,7 @@ import ContactExperience from '../components/Models/contact/ContactExperience';
 
 const Contact = () => {
   const formRef = useRef(null);
+
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: '',

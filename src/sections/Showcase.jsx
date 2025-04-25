@@ -60,11 +60,11 @@ const Showcase = () => {
               <img src="./images/project1.png" alt="first-project" />
             </div>
             <div className="text-content">
-              <h2>On-Demand Rides Made Simple With Our App Ryde</h2>
+              <h2>Hotel - Reservation de chambres</h2>
               <p className="text-white-50 md:text-xl">
-                Un application créer avec React Native, compatible avec tous les
-                smartphones, permettant aux utilisateurs de trouver des services
-                de transport en un seul clic.
+                Application web développée avec Next.js et Appwrite, permettant
+                de réserver des chambres en ligne facilement, avec gestion des
+                disponibilités et espace admin.
               </p>
             </div>
           </div>
@@ -73,16 +73,36 @@ const Showcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
+              <div className="image-wrapper ">
                 <img src="./images/project2.png" alt="Library" />
               </div>
-              <h2>Gestion de bibliothèque</h2>
+              <a
+                href="https://frisca.vercel.app/"
+                target="_blank"
+                className="flex gap-2 items-center justify-center"
+              >
+                <div className="text-content text-center">
+                  <h2>Frizzi - Démonstration de produit</h2>
+                  <p className="text-white-50 max-w-[80%] mx-auto ">
+                    Site interactif pour une boisson gazeuse fictive, avec
+                    animations 3D déclenchées par l'utilisateur. Développé avec
+                    Next.js, Three.js et GSAP.
+                  </p>
+                </div>
+              </a>
             </div>
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
+              <div className="image-wrapper ">
                 <img src="./images/project3.png" alt="YC Directory" />
               </div>
-              <h2>Application de showcase d'une entreprise</h2>
+              <div className="text-content text-center">
+                <h2>Location - Reservations estivales</h2>
+                <p className="text-white-50 max-w-[80%] mx-auto ">
+                  Site de réservation pour locations de vacances, développé avec
+                  Next.js et Node.js, avec gestion des logements, calendrier de
+                  disponibilité et espace client.
+                </p>
+              </div>
             </div>
           </div>
         </div>
