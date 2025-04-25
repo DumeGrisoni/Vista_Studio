@@ -34,21 +34,27 @@ const counterItems = [
 const logoIconsList = [
   {
     imgPath: './images/logos/company-logo-1.png',
+    id: '1',
   },
   {
     imgPath: './images/logos/company-logo-2.png',
+    id: '2',
   },
   {
     imgPath: './images/logos/company-logo-3.png',
+    id: '3',
   },
   {
     imgPath: './images/logos/company-logo-4.png',
+    id: '4',
   },
   {
     imgPath: './images/logos/company-logo-5.png',
+    id: '5',
   },
   {
     imgPath: './images/logos/company-logo-6.png',
+    id: '6',
   },
 ];
 
@@ -93,35 +99,35 @@ const techStackIcons = [
   {
     name: 'React & React Native',
     desc: 'Interfaces Web & Mobile Dynamiques',
-    modelPath: '/models/react_logo-transformed.glb',
+    modelPath: './models/react_logo-transformed.glb',
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: 'Node.js',
     desc: 'Serveur Rapide en JavaScript',
-    modelPath: '/models/node-transformed.glb',
+    modelPath: './models/node-transformed.glb',
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: 'Three.js',
     desc: 'Graphismes 3D pour le Web',
-    modelPath: '/models/three.js-transformed.glb',
+    modelPath: './models/three.js-transformed.glb',
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: 'Appwrite',
     desc: 'Service de gestion données des applications.',
-    modelPath: '/models/appWrite.glb',
+    modelPath: './models/appWrite.glb',
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: 'GitHub',
     desc: 'Plateforme de partage de projets Web et Mobile.',
-    modelPath: '/models/git-svg-transformed.glb',
+    modelPath: './models/git-svg-transformed.glb',
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },

@@ -1,12 +1,33 @@
-# React + Vite
+# Vista Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue chez **Vista Studio** — Développement web & mobile sur mesure.
 
-Currently, two official plugins are available:
+## 🚀 À propos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Je suis un développeur web et mobile spécialisé dans la création d’expériences numériques modernes et performantes.  
+Ce site vitrine a été conçu pour présenter mon travail, mes services et mes projets récents.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [**Vite.js**](https://vitejs.dev/) — Bundler ultra rapide pour projets React
+- [**React**](https://reactjs.org/) — Librairie JavaScript pour construire des interfaces
+- [**Three.js**](https://threejs.org/) — Rendu 3D pour le web
+- [**GSAP**](https://greensock.com/gsap/) — Animations fluides et performantes
+- [**React Native**](https://reactnative.dev/) — Création d'applications mobiles multiplateformes
+- [**Next.js**](https://nextjs.org/) — Framework React pour les sites rapides et optimisés (SEO)
+
+## 📱 Services
+
+- Développement de sites web responsives (React + Vite ou Next.js)
+- Création d’applications mobiles (React Native)
+- Intégration d’animations avancées (GSAP)
+- Effets visuels interactifs en 3D (Three.js)
+- Conception et accompagnement sur mesure
+
+## 🧾 Licence
+
+Ce projet est à but personnel et professionnel. Merci de ne pas réutiliser le code ou les assets sans autorisation.
+
+---
+
+**Vista Studio** — Propulsez vos idées dans le web d’aujourd’hui 🚀

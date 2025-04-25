@@ -10,13 +10,17 @@ const Footer = () => {
             href="/"
             className=" hover:text-white transition-color duration-300"
           >
-            {' '}
             Voir les Mentions légales
           </a>
         </div>
         <div className="socials">
           {socialImgs.map((img) => (
-            <a className="icon" target="_blank" href={img.url} key={img.url}>
+            <a
+              className="icon"
+              target="_blank"
+              href={img.url}
+              key={img.url + img.name}
+            >
               <img src={img.imgPath} alt={img.name} />
             </a>
           ))}
