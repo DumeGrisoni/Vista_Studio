@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="flex-center section-padding">
-      <div className="w-full h-full md:px-10 px-5">
+      <div className="w-full h-full md:px-10 ">
         <TitleHeader
           title="Me contacter"
           sub="💬 Une question ou un projet ? Parlons-en."
@@ -98,7 +98,7 @@ const Contact = () => {
                 <button type="submit">
                   <div className="cta-button group">
                     <div className="bg-circle" />
-                    <p className="text">{loading ? 'Envoie...' : 'Envoyer'}</p>
+                    <p className="text">{loading ? 'Envoi...' : 'Envoyer'}</p>
                     <div className="arrow-wrapper">
                       <img src="./images/arrow-down.svg" alt="arrow" />
                     </div>

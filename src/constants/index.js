@@ -15,11 +15,11 @@ const navLinks = [
 
 const words = [
   { text: 'une Idée', imgPath: './images/ideas.svg' },
-  { text: 'un Concept', imgPath: './images/concepts.svg' },
+  { text: 'un Produit', imgPath: './images/concepts.svg' },
   { text: 'un Design', imgPath: './images/designs.svg' },
   { text: 'un Code', imgPath: './images/code.svg' },
   { text: 'une Idée', imgPath: './images/ideas.svg' },
-  { text: 'un Concept', imgPath: './images/concepts.svg' },
+  { text: 'un Souhait', imgPath: './images/concepts.svg' },
   { text: 'un Design', imgPath: './images/designs.svg' },
   { text: 'un Code', imgPath: './images/code.svg' },
 ];
@@ -192,18 +192,17 @@ const socialImgs = [
   {
     name: 'insta',
     imgPath: './images/insta.png',
+    imgUrl: 'https://www.instagram.com/vistastudio2b/',
   },
   {
     name: 'fb',
     imgPath: './images/fb.png',
-  },
-  {
-    name: 'x',
-    imgPath: './images/x.png',
+    imgUrl: 'https://www.facebook.com/vista.studio.2b/',
   },
   {
     name: 'linkedin',
     imgPath: './images/linkedin.png',
+    imgUrl: 'https://www.linkedin.com/in/vista-studio-06a122362/',
   },
 ];
 

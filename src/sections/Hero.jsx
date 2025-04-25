@@ -11,6 +11,7 @@ import AnimatedCounter from '../components/AnimatedCounter.jsx';
 gsap.registerPlugin(useGSAP);
 
 const Hero = () => {
+  const isMobile = window.innerWidth < 1024;
   useGSAP(() => {
     gsap.fromTo(
       '.hero-text h1',
@@ -37,17 +38,19 @@ const Hero = () => {
         {/* GAUCHE : TEXT */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
-            <div className="hero-text">
+            <div className="hero-text md:text-5xl lg:text-6xl">
               <h1>
                 Partir d'
                 <span className="slide">
-                  <span className="wrapper">
+                  <span className="wrapper ">
                     {words.map((word, index) => (
                       <span
                         key={word.text + index}
-                        className="flex items-center md:gap-3 gap-1 pb-2"
+                        className="flex items-center lg:mb-3 lg:mt-0 md:mb-6 md:gap-3 gap-1 pb-2"
                       >
-                        <span>{word.text}</span>
+                        <span className="md:text-5xl lg:text-6xl">
+                          {word.text}
+                        </span>
                         <img
                           src={word.imgPath}
                           className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
@@ -62,13 +65,13 @@ const Hero = () => {
               <h1> un projet concret</h1>
             </div>
 
-            <p className="text-sm lg:max-w-[50%]  text-white-50 relative z-10 ">
+            <p className="text-sm lg:text-base lg:max-w-[50%] text-white-50 relative z-10 ">
               Je m'appelle Dumè Grisoni, je suis un developpeur basé en Corse,
               spécialisé dans la création de sites et d'applications sur mesure
               dédier à valoriser votre activité en ligne.
             </p>
             <Button
-              className="md:w-80 md:h-16 w-60 h-12"
+              className="md:w-80 md:h-16 w-70 h-12 mx-auto lg:mx-0"
               id="counter"
               text="Mes projets"
             />
@@ -76,13 +79,14 @@ const Hero = () => {
         </header>
 
         {/* DROITE : 3D MODEL */}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
-          </div>
-        </figure>
+        {!isMobile && (
+          <figure>
+            <div className="hero-3d-layout">
+              <HeroExperience />
+            </div>
+          </figure>
+        )}
       </div>
-
       <AnimatedCounter />
     </section>
   );

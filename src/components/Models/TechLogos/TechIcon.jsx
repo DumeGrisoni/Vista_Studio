@@ -2,9 +2,11 @@ import React, { useEffect } from 'react';
 import { Environment, Float, OrbitControls, useGLTF } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import * as THREE from 'three';
+import { useMediaQuery } from 'react-responsive';
 
 const TechIcon = ({ model }) => {
   const scene = useGLTF(model.modelPath);
+  const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });
 
   useEffect(() => {
     if (model.name === 'Three.js') {
@@ -19,7 +21,7 @@ const TechIcon = ({ model }) => {
     <Canvas>
       <Environment files="./images/hdr/lobby.hdr" />
       <directionalLight position={[5, 5, 5]} intensity={1} />
-      <OrbitControls enableZoom={false} />
+      {!isMobile && <OrbitControls enableZoom={false} />}
       <Float
         rotation={[0, 0, 0]}
         speed={5.5}

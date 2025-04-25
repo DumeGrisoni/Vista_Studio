@@ -56,10 +56,10 @@ const Showcase = () => {
         <div className="showcaselayout">
           {/* GAUCHE  */}
           <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
+            <div className={`image-wrapper`}>
               <img src="./images/project1.png" alt="first-project" />
             </div>
-            <div className="text-content">
+            <div className="text-content text-center">
               <h2>Hotel - Reservation de chambres</h2>
               <p className="text-white-50 md:text-xl">
                 Application web développée avec Next.js et Appwrite, permettant

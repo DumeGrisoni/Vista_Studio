@@ -15,13 +15,13 @@ const HeroExperience = () => {
       <HeroLight />
       <group
         scale={isMobile ? 0.9 : isTablet ? 0.8 : 1.2}
-        position={isMobile ? [0, -1, 0] : isTablet ? [0, -2.5, 0] : [0, 0, -1]}
+        position={isMobile ? [0, -2, 0] : isTablet ? [0, -2.5, 0] : [0, 0, -1]}
         rotation={[0, 0, 0]}
       >
         <Float
-          rotationIntensity={0.5}
+          rotationIntensity={1}
           speed={1}
-          floatIntensity={0.2}
+          floatIntensity={0.5}
           floatingRange={[-0.5, 0.5]}
         >
           <Vista />
@@ -29,15 +29,16 @@ const HeroExperience = () => {
            */}
         </Float>
       </group>
-
-      <OrbitControls
-        maxDistance={20}
-        minDistance={5}
-        minPolarAngle={Math.PI / 5}
-        maxPolarAngle={Math.PI / 2}
-        enablePan={false}
-        enableZoom={isTablet}
-      />
+      {!isTablet && (
+        <OrbitControls
+          maxDistance={20}
+          minDistance={5}
+          minPolarAngle={Math.PI / 5}
+          maxPolarAngle={Math.PI / 2}
+          enablePan={false}
+          enableZoom={isTablet}
+        />
+      )}
     </Canvas>
   );
 };
