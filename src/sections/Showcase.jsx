@@ -55,7 +55,12 @@ const Showcase = () => {
       <div className="w-full ">
         <div className="showcaselayout">
           {/* GAUCHE  */}
-          <div className="first-project-wrapper" ref={project1Ref}>
+          <a
+            target="_blank"
+            href="https://hotel-petra-serena.vercel.app/"
+            className="first-project-wrapper border border-[#05070a] rounded-xl hover:border-gray-900 p-6 cursor-pointer overflow-hidden"
+            ref={project1Ref}
+          >
             <div className={`image-wrapper`}>
               <img src="./images/project1.png" alt="first-project" />
             </div>
@@ -67,20 +72,21 @@ const Showcase = () => {
                 disponibilités et espace admin.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* DROITE  */}
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
+            <a
+              href="https://frisca.vercel.app/"
+              target="_blank"
+              className="project border border-[#05070a] rounded-xl hover:border-gray-900 p-2 cursor-pointer overflow-hidden"
+              ref={project2Ref}
+            >
               <div className="image-wrapper ">
                 <img src="./images/project2.png" alt="Library" />
               </div>
-              <a
-                href="https://frisca.vercel.app/"
-                target="_blank"
-                className="flex gap-2 items-center justify-center"
-              >
+              <div className="flex gap-2 items-center justify-center">
                 <div className="text-content text-center">
                   <h2>Frizzi - Démonstration de produit</h2>
                   <p className="text-white-50 max-w-[80%] mx-auto ">
@@ -89,21 +95,26 @@ const Showcase = () => {
                     Next.js, Three.js et GSAP.
                   </p>
                 </div>
-              </a>
-            </div>
-            <div className="project" ref={project3Ref}>
+              </div>
+            </a>
+            <a
+              href="https://house-booking-smoky.vercel.app/"
+              target="_blank"
+              className="project border border-[#05070a] rounded-xl hover:border-gray-900 p-2 cursor-pointer overflow-hidden"
+              ref={project3Ref}
+            >
               <div className="image-wrapper ">
                 <img src="./images/project3.png" alt="YC Directory" />
               </div>
               <div className="text-content text-center">
                 <h2>Location - Reservations estivales</h2>
-                <p className="text-white-50 max-w-[80%] mx-auto ">
+                <div className="text-white-50 max-w-[80%] mx-auto ">
                   Site de réservation pour locations de vacances, développé avec
                   Next.js et Node.js, avec gestion des logements, calendrier de
                   disponibilité et espace client.
-                </p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

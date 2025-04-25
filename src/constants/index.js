@@ -164,7 +164,6 @@ const expCards = [
     imgPath: './images/exp3.png',
     logoPath: './images/logo3.png',
     title: 'React Native Developer',
-    date: 'March 2019 - May 2020',
     responsibilities: [
       "Optimisation et tests finaux pour assurer la performance et la stabilité de l'application.",
       'Ajustements en fonction des retours finaux pour peaufiner les derniers détails.',
