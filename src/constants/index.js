@@ -163,7 +163,7 @@ const expCards = [
       "J'effectue les derniers ajustements et tests pour garantir la stabilité et la performance de l'application avant sa mise en ligne.",
     imgPath: './images/exp3.png',
     logoPath: './images/logo3.png',
-    title: 'React Native Developer',
+    title: 'Mise en ligne',
     responsibilities: [
       "Optimisation et tests finaux pour assurer la performance et la stabilité de l'application.",
       'Ajustements en fonction des retours finaux pour peaufiner les derniers détails.',
