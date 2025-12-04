@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Noirs */
+  --color-noir: #222222;
+  --color-gris: #22222280;
+  --color-light: #22222205;
+}
