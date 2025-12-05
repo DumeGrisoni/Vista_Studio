@@ -1,6 +1,6 @@
 import { benefits } from '@/lib/datas';
 import React from 'react';
-import { BenefitCard } from './BenefitCard';
+import { BenefitCard } from '../BenefitCard';
 
 const Benefits = () => {
   return (

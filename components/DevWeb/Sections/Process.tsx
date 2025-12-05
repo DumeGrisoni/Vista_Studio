@@ -1,6 +1,6 @@
 import { processSteps } from '@/lib/datas';
 import React from 'react';
-import { ProcessStep } from './ProcessStep';
+import { ProcessStep } from '../ProcessStep';
 
 const Process = () => {
   return (

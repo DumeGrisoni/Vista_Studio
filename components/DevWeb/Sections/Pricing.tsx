@@ -1,6 +1,6 @@
 import { pricing } from '@/lib/datas';
 import React from 'react';
-import { PricingCard } from './PricingCard';
+import { PricingCard } from '../PricingCard';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 

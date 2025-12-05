@@ -1,9 +1,9 @@
-import Benefits from '@/components/Benefits';
-
+import Benefits from '@/components/DevWeb/Sections/Benefits';
+import Pricing from '@/components/DevWeb/Sections/Pricing';
+import Process from '@/components/DevWeb/Sections/Process';
 import HeroSection from '@/components/HeroSection';
-import Pricing from '@/components/Pricing';
-import Process from '@/components/Process';
-import Services from '@/components/Services';
+
+import Services from '@/components/DevWeb/Sections/Services';
 
 export default function Home() {
   return (
