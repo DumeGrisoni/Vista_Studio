@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Pricing = () => {
   return (
-    <section className="px-6 py-20 relative z-10 ">
+    <section className="px-6 py-20 relative z-10 bg-[#fafafafa] w-full">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl text-center mb-4">Les Formules</h2>
         <p className="text-center text-noir/70 mb-16 text-lg">
@@ -27,7 +27,9 @@ const Pricing = () => {
           className="flex items-center justify-center mt-8  text-xl hover:text-gris text-noir hover:scale-101 transition-all"
         >
           <ChevronRight className="w-4 h-4" />{' '}
-          <p>Prêt à démarrer votre projet ? Contactez-moi.</p>{' '}
+          <p className="text-sm md:text-lg">
+            Prêt à démarrer votre projet ? Contactez-moi.
+          </p>{' '}
           <ChevronLeft className="w-4 h-4" />
         </Link>
       </div>

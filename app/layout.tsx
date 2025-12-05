@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${albertSans.variable} } antialiased`}>
-        <main className="flex min-h-screen w-full  mx-auto flex-col items-center justify-start bg-white">
+        <main className="flex min-h-screen min-w-full w-full mx-auto flex-col items-center justify-start bg-white">
           <Navbar />
           {children}
           <Footer />

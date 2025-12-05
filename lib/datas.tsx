@@ -5,7 +5,7 @@ export const services = [
     icon: <Code2 className="w-8 h-8" />,
     title: 'Développement Web',
     description:
-      'Création de sites web modernes et performants avec les dernières technologies React, Next.js et TypeScript.',
+      'Création de sites web modernes et performants avec les dernières technologies.',
   },
   {
     icon: <Palette className="w-8 h-8" />,
@@ -122,5 +122,38 @@ export const pricing = [
     price: 'Uniquement sur devis',
     description:
       "Création d'application sur mesure, disponible sur Android et iOS",
+  },
+];
+export const projects = [
+  {
+    title: 'Site de vente en ligne',
+    description:
+      "Création d'un site de vente en ligne personnalisable pour votre entreprise.",
+    category: 'ECommerce',
+    image: '/ecommerce_landingPage.png',
+    littleImg: '/addCart.png',
+    bg: '/background-pink.png',
+    link: 'https://next-ecommerce-starter.vercel.app/',
+  },
+  {
+    title: 'Réservation de chambre',
+    description:
+      "Développement d'un site de réservation de chambre customisable à votre image.",
+    category: 'Réservations',
+    image: '/Hotel_landingPage.png',
+    littleImg: '/seeRooms.png',
+
+    bg: '/background-blue.png',
+    link: 'https://hotel-petra-serena.vercel.app/',
+  },
+  {
+    title: 'Vente de produit 3D',
+    description:
+      "Réalisation d'un site vitrine d'un produit fictif, réalisé en 3D, avec animations",
+    category: 'Vitrine',
+    bg: '/background-yellow.png',
+    littleImg: '/ChooseFlavor.png',
+    image: '/vitrine_landingPage.png',
+    link: 'https://frisca.vercel.app/',
   },
 ];

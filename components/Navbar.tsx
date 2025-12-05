@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="h-[60px] fixed top-0 left-0 bg-white border-b border-gris/50 w-full flex items-center justify-between md:px-32">
+    <div className="h-[60px] z-100 fixed top-0 left-0 bg-white border-b border-gris/50 w-full flex items-center justify-between md:px-32">
       <div className="hidden items-center md:flex">
         <Image
           className="mx-auto"
